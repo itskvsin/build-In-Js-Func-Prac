@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/public/stylesheets/bgChange.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="container flex-col w-screen h-screen">
+        <div class="body flex w-screen h-2/4 justify-center items-center">
+            <div class="row1">
+                <button cellIndex="0" class="cell flex items-center justify-center w-24 h-24 border-2 border-white rounded text-white text-6xl"></button>
+                <button cellIndex="1" class="cell flex items-center justify-center w-24 h-24 border-2 border-white rounded text-white text-6xl"></button>
+                <button cellIndex="2" class="cell flex items-center justify-center w-24 h-24 border-2 border-white rounded text-white text-6xl"></button>
+            </div>
+            <div class="row2">
+                <button cellIndex="3" class="cell flex items-center justify-center w-24 h-24 border-2 border-white rounded text-white text-6xl"></button>
+                <button cellIndex="4" class="cell flex items-center justify-center w-24 h-24 border-2 border-white rounded text-white text-6xl"></button>
+                <button cellIndex="5" class="cell flex items-center justify-center w-24 h-24 border-2 border-white rounded text-white text-6xl"></button>
+            </div>
+            <div class="row3">
+                <button cellIndex="6" class="cell flex items-center justify-center w-24 h-24 border-2 border-white rounded text-white text-6xl"></button>
+                <button cellIndex="7" class="cell flex items-center justify-center w-24 h-24 border-2 border-white rounded text-white text-6xl"></button>
+                <button cellIndex="8" class="cell flex items-center justify-center w-24 h-24 border-2 border-white rounded text-white text-6xl"></button>
+            </div>
+        </div>
+        <div class="extrabcdiv flex justify-center items-center w-screen">
+            <div class="footer flex-col">
+                <button id="restart" onclick="restartGame()" class="ml-8 bg-emerald-600 py-4 px-6 font-semibold text-2xl rounded mb-10">Restart</button>
+                <div class="status text-6xl"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/public/javaScripts/ttt.js"></script>
+</body>
+</html>
